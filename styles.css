@@ -17,6 +17,8 @@ nav{
     text-decoration: none;
     padding: 15px;
     background-color: black;
+    margin: 5px;
+    border-radius:50px;
 }
 nav a{
     color: white;
@@ -44,20 +46,17 @@ nav a:hover{
 .img:hover{
     box-shadow: 5px 5px 100px rgb(15, 161, 161);
 }
-#home{
-    padding: 80px;
-    margin: 15px;
-    background-color: black;
-    border-radius:50px;
+h2:hover{
+    color: cyan;
+    text-decoration-line: underline;
 }
-#home:hover{
-    background: linear-gradient(rgb(19, 18, 18), rgb(0, 0, 0));
-}
+
 #about{
     padding: 80px;
     margin: 15px;
     background-color: black;
     border-radius:50px;
+    color: white;
 }
 #about:hover{
     background: linear-gradient(rgb(19, 18, 18), rgb(0, 0, 0));
