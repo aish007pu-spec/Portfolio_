@@ -1,0 +1,97 @@
+body{
+    background:linear-gradient(rgb(36, 253, 253) , black);
+    background-repeat: no-repeat;
+    height:100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+.icon{
+    margin: 10px;
+    text-align: right;
+    display: grid;
+    align-items: right;
+    justify-items: right;
+}
+nav{
+    text-align: right;
+    text-decoration: none;
+    padding: 15px;
+    background-color: black;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    box-shadow:2px 2px 100px white;
+}
+.one{
+   color: whitesmoke;
+   display: grid; 
+   align-items: center;
+   justify-items: center;
+}
+.img{
+    margin-top:20px ;
+    border-radius: 50%;
+    max-width:300px;
+    max-height: 300px;
+    background-size: contain;
+    box-shadow: 5px 5px 500px;
+    transition: all 0.25s ease-in;
+}
+.img:hover{
+    box-shadow: 5px 5px 100px rgb(15, 161, 161);
+}
+#home{
+    padding: 80px;
+    margin: 15px;
+    background-color: black;
+    border-radius:50px;
+}
+#home:hover{
+    background: linear-gradient(rgb(19, 18, 18), rgb(0, 0, 0));
+}
+#about{
+    padding: 80px;
+    margin: 15px;
+    background-color: black;
+    border-radius:50px;
+}
+#about:hover{
+    background: linear-gradient(rgb(19, 18, 18), rgb(0, 0, 0));
+}
+#skills{
+    padding: 80px;
+    margin: 15px;
+    background-color: black;
+    border-radius:50px;
+}
+#skills:hover{
+    background: linear-gradient(rgb(19, 18, 18), rgb(0, 0, 0));
+}
+#projects{
+    padding: 80px;
+    margin: 15px;
+    background-color: black;
+    border-radius:50px;
+}
+#projects:hover{
+    background: linear-gradient(rgb(19, 18, 18), rgb(0, 0, 0));
+}
+#contact{
+    padding: 80px;
+    margin: 15px;
+    background-color: black;
+    border-radius:50px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+    margin: 0px;
+
+}
+
